@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #333;
+}
+
+body h1 {
+  text-align: center;
+  color: white;
+}
+
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: lightcoral;
+}
+
+.mv {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.card1 {
+  display: flex;
+  background-color: darkred;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card2 {
+  display: flex;
+  background-color: darkgoldenrod;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card3 {
+  display: flex;
+  background-color: darkred;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card4 {
+  display: flex;
+  background-color: darkblue;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card5 {
+  display: flex;
+  background-color: darkgreen;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card6 {
+  display: flex;
+  background-color: #111;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card10 {
+  display: flex;
+  background-color: #C0C2C2;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card7 {
+  display: flex;
+  background-color: #37BA9B;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card8 {
+  display: flex;
+  background-color: #F98F81;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card9 {
+  display: flex;
+  background-color: #7A0434;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card11 {
+  display: flex;
+  background-color: #7C2E87;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card12 {
+  display: flex;
+  background-color: #1E76B8;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card13 {
+  display: flex;
+  background-color: #EE1B3E;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card14 {
+  display: flex;
+  background-color: #F59EAF;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card15 {
+  display: flex;
+  background-color: #F5712A;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card16 {
+  display: flex;
+  background-color: #08A953;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card17 {
+  display: flex;
+  background-color: #FCCA28;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card18 {
+  display: flex;
+  background-color: #DE3373;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card19 {
+  display: flex;
+  background-color: #ff9c67;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card20 {
+  display: flex;
+  background-color: #ff8ba2;
+  box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.28);
+  border-radius: 15px;
+  color: white;
+}
+
+.card-image {
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 15px;
+}
+
+.card-content {
+  padding: 2rem;
+}
+
+.blog-details,
+.icon-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.icon-text {
+  margin-right: 1rem;
+  color: white;
+}
+
+.icon-text .icon {
+  color: red;
+  margin-right: 0.4rem;
+}
+
+.blog-cta {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  padding: 1.6rem 3rem;
+  display: inline-block;
+  background-color: black;
+  border-radius: 0.6rem;
+  color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: grey;
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .card-image {
+    height: auto;
+    flex: 1;
+  }
+
+  .card-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+h2 {
+  font-size: 21px;
+}
